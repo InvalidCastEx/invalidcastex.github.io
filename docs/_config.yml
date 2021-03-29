@@ -31,7 +31,8 @@ author:
 show_excerpts: true
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: jekyll/minima
 
 minima:
   skin: dark
