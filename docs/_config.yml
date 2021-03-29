@@ -21,15 +21,23 @@
 title: Invalid's Tech Blog
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome! This is a place for me to document and discuss whatever technology I'm learning
-  or having trouble with.
+  Let's talk tech.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://invalidcastex.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-github_username: invalidcastex
+
+author:
+  name: InvalidCast
+
+show_excerpts: true
 
 # Build settings
 theme: minima
+
+minima:
+  skin: dark
+  social_links:
+    github: invalidcastex
+
 plugins:
   - jekyll-feed
 
